@@ -45,7 +45,6 @@ if __name__ == "__main__":
     asyncio.run(
         mcp.run_sse_async(
             host="0.0.0.0",
-            port=8000,
-            debug=True,
-        )
+            port=8888,
+            log_level='debug')
     )
